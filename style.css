@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border-color: lightgray;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #3e8e41;
+}
+
+.register, .login {
+    margin: auto;
+    margin-top: 50px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+}
+
+li.sem-marcador {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    width: 200px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #3e8e41;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
