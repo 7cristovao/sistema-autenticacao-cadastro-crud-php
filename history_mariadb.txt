@@ -1,0 +1,31 @@
+describe cadastro;
+use cadastro;
+SELECT * FROM cadastro WHERE nome LIKE '%Fulano%';
+SELECT * FROM cadastro;
+CREATE TABLE cadastro (     id INT AUTO_INCREMENT PRIMARY KEY,     nome VARCHAR(100),     endereco VARCHAR(200),     numero VARCHAR(10),     complemento VARCHAR(50),     cep VARCHAR(8),     cidade VARCHAR(100),     estado VARCHAR(2),     email VARCHAR(100),     whatsapp VARCHAR(15) );
+DROP TABLE cadastro;
+show databases;
+GRANT ALL PRIVILEGES ON cadastro.* TO 'ho6delta'@'localhost';
+CREATE DATABASE cadastro;
+SELECT * FROM formulario;
+use formulario;
+show databases;
+SELECT * FROM usuarios;
+use usuarios;
+CREATE TABLE usuarios ( id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, nomedeusuario VARCHAR(50) NOT NULL, email VARCHAR(50) NOT NULL, senha VARCHAR(255) NOT NULL );
+CREATE DATABASE usuarios;
+
+GRANT ALL PRIVILEGES ON usuarios.* TO 'ho6delta'@'localhost';
+DROP DATABASE usuarios;
+show DATABASES;
+GRANT ALL PRIVILEGES ON usuarios.* TO 'ho6delta'@'localhost';
+SELECT * FROM formulario;
+use formulario;
+show tables;
+CREATE TABLE formulario ( id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY, nome VARCHAR(30) NOT NULL, email VARCHAR(50) NOT NULL, mensagem VARCHAR(200) NOT NULL, data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP );
+data_registro TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+GRANT ALL PRIVILEGES ON formulario.* TO 'ho6delta'@'localhost';
+CREATE USER 'seu_nome_de_usuario_do_banco_de_dados'@'localhost' IDENTIFIED BY 'sua_senha_do_banco_de_dados';
+sudo mysql -u ho6delta -p
+sudo mysql -u root -p
+
