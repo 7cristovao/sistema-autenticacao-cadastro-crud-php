@@ -8,8 +8,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Conectar ao banco de dados
     $servername = "localhost";
-    $username = "ho6delta";
-    $password = "M@NC4T";
+    $username = "seu_nome_de_usuario_do_banco_de_dados";
+    $password = "sua_senha_do_banco_de_dados";
     $dbname = "usuarios";
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);

@@ -1,8 +1,8 @@
 <?php
 // Configuração de acesso ao banco de dados
 $servername = "localhost"; // Endereço do servidor
-$username = "ho6delta"; // Nome do usuário do banco de dados
-$password = "M@NC4T"; // Senha do usuário do banco de dados
+$username = "seu_nome_de_usuario_do_banco_de_dados"; // Nome do usuário do banco de dados
+$password = "sua_senha_do_banco_de_dados"; // Senha do usuário do banco de dados
 $dbname = "cadastro"; // Nome do banco de dados
 
 // Conexão com o banco de dados
